@@ -1,0 +1,10 @@
+{
+  "name": "teamcfadvance-website",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "bootstrap-sass": "~3.0.2",
+    "fontawesome": "~4.2.0"
+  },
+  "devDependencies": {}
+}
