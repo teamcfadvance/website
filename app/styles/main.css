@@ -4,6 +4,18 @@
   color: #000;
   padding: 0.2em 0; }
 
+.container > .row {
+  padding-top: 100px; }
+
+nav .navbar-brand-logo {
+  display: inline-block;
+  width: 140px; }
+  nav .navbar-brand-logo img {
+    display: block;
+    position: absolute;
+    max-width: 100px;
+    margin-top: -10px; }
+
 #get-involved dl > dd {
   margin-bottom: 1em; }
 
@@ -14,7 +26,7 @@ ul.list-unstyled li a span {
 #contact ul li a {
   font-size: 1.2em; }
 
-.footer {
+.footer > div {
   border-top: 1px solid lightgray;
   padding-top: 1em;
   margin-top: 1em; }

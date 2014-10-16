@@ -19,34 +19,51 @@
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <div class="container-fluid">
-
-            <div id="home" class="row">
-                <div class="col-lg-6 col-lg-offset-3 header">
-                    <ul class="nav nav-pills pull-right">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#get-involved">Get Involved</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <h3 class="text-muted">TeamCFAdvance</h3>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+          <div class="container">
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand visible-xs" href="#">TeamCFAdvance</a>
+                  <a class="navbar-brand navbar-brand-logo hidden-xs" href="#">
+                    <img src="images/tcfa_retro_green_trans.png">
+                  </a>
                 </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#get-involved">Get Involved</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+
+                </div><!-- /.navbar-collapse -->
             </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+        <div class="container">
 
             <div id="home" class="row">
-                <div class="col-lg-6 col-lg-offset-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
                     <h2>Greetings</h2>
-                    <p>We're a group of cfml developers who believe the CFML community will continue to grow if we embrace the concepts of cooperation and sharing which are the core of Open Source philosophy. Team CF Advance is focused on developing new &mdash; and advancing existing &mdash; open source software for ColdFusion / Railo.</p>
+                    <p>We're a group of CFML developers who believe the CFML community will continue to grow if we embrace the concepts of cooperation and sharing which are the core of Open Source philosophy. Team CF Advance is focused on developing new &mdash; and advancing existing &mdash; open source software for ColdFusion / Railo.</p>
                     <p>Developers of all walks of life, skill level and experience are welcome to join the team. Our members enjoy the camaraderie of working on CFML projects of all kinds with developers of all levels. Our members enjoy educating and learning, on topics like CFML best practices, testing your code, server administration and Open Source project management.</p>
                     <p>So, if you have ideas for an Open Source CFML software or just want to sharpen your skills working with other developers on existing projects, consider joining our ranks. You'll work with like-minded teams of developers towards building quality solutions for the community.</p>
                 </div>
             </div>
 
             <div id="get-involved" class="row">
-                <div class="col-lg-6 col-lg-offset-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
                     <h2>Getting Involved</h2>
-                    <p>We're an open community of developers and we need contributions of all types of developers of all levels. By combining the work of novice and sage developers of all skill levels benefit from either being mentored or mentoring others.</p>
+                    <p>We're an open community of developers and we need contributions from all types of developers on all levels.</p>
                     <dl>
                         <dt><strong>Q.</strong> I'm a complete beginner; can I still participate?</dt>
                         <dd><strong>A.</strong> We have several ongoing projects which are great for newbies. Plus, our experienced members love to share and will gladly help you get your footing. Many of our projects have features and bugs listed and tagged as beginner. These are items perfect for the newbie.</dd>
@@ -55,49 +72,33 @@
                         <dd><strong>A.</strong> Sure, many of our existing projects have GitHub issues you may choose from. Just contact the project manager and let him or her know you're tackling the issue of your choice.</dd>
 
                         <dt><strong>Q.</strong> I want to be a team leader, how do I start?</dt>
-                        <dd><strong>A.</strong> A good leader is a servant who understands leadership means applying more time and energy so that the team can succeed. It's not about personal glory it's about making sure your team members have what they need to grow. If that sounds like you, prove it, join an existing team, participate, help those arround you. Our growth is organic, as new working groups are created or existing team leaders stepdown, the servents in our ranks step forward to fill the gaps.</dd>
+                        <dd><strong>A.</strong> A good leader is a servant who understands leadership means applying more time and energy so that the team can succeed. It's not about personal glory; it's about making sure your team members have what they need to grow. If that sounds like you, join an existing team, participate, and help those arround you. Our growth is organic, as new working groups are created or existing team leaders stepdown, the servents in our ranks step forward to fill the gaps.</dd>
 
                         <dt><strong>Q.</strong> I've got my own Open Source project and could sure use some participation. How can I get Team CF Advance on board?</dt>
                         <dd><strong>A.</strong> Give us a shout-out on Twitter, Google+ or Facebook. Depending on what you need we can help in several ways:
                             <ol>
                                 <li><strong>Advice/Mentorship</strong> &ndash; We've some very experianced developers and OSS project leads in our ranks who are more than happy to advise you regarding project planning and management.</li>
                                 <li><strong>Participation</strong> &ndash; We can highlight your project in our social media and internal discussions and help drive interest for your project. Many of our team members contribute to non-team projects.</li>
-                                <li><strong>Stewardship</strong> &ndash; Sometimes OSS projects stagnate. If you need to move on from your project, or just don't have the time required to keep it up-to-date, Team CF Advance may be interested in tacking over stewardship of the project.</li>
+                                <li><strong>Stewardship</strong> &ndash; Sometimes OSS projects stagnate. If you need to move on from your project, or just don't have the time required to keep it up-to-date, Team CF Advance may be interested in taking over stewardship of the project.</li>
                             </ol>
                         </dd>
                 </div>
             </div>
 
             <div id="projects" class="row">
-                <div class="col-lg-6 col-lg-offset-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
                     <h2>Team Projects</h2>
                     <h3>How we Choose Projects</h3>
-                    <p>We tend to focus our attention on projects that will impact the greatest number of CFML developers. A project like BlogCFC has a huge user base and is a perfect community project. Sometimes we're presented with a project proposal whose user base would be to limited. In those cases we won't apply resources, but we may find subset of features from that project that could be applied on a larger scale and we'll focus our efforts there.</p>
-                    <p>We all work on projects that interest us. Sometimes those projects need a home in the community which is greater than one developer. This can happen when a project looses it's initial core developers but there's still interest in the community. Team CF Advance is a great place to house your existing project.</p>
+                    <p>We tend to focus our attention on projects that will impact the greatest number of CFML developers. A project like BlogCFC has a huge user base and is a perfect community project. Sometimes we're presented with a project proposal whose user base would be to limited. In those cases we won't apply resources, but we may find a subset of features from that project that could be applied on a larger scale and we'll focus our efforts there.</p>
+                    <p>We all work on projects that interest us. Sometimes those projects need a home in the community which is greater than one developer. This can happen when a project looses its initial core developers but there's still interest in the community. Team CF Advance is a great place to house your existing project.</p>
                     <h3>Current Projects</h3>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h4>Project one</h4>
-                            <p>Testing this out this is cool, this is the way we do it, uhhuhu</p>
-                        </div>
-                        <div class="col-lg-4">
-                            <h4>Project one</h4>
-                            <p>Testing this out this is cool, this is the way we do it, uhhuhu</p>
-                        </div>
-                        <div class="col-lg-4">
-                            <h4>Project one</h4>
-                            <p>Testing this out this is cool, this is the way we do it, uhhuhu</p>
-                        </div>
-                        <div class="col-lg-4">
-                            <h4>Project one</h4>
-                            <p>Testing this out this is cool, this is the way we do it, uhhuhu</p>
-                        </div>
-                    </div>
+                    <p>Checkout our current projects at GitHub.</p>
+                    <p><i class="fa fa-github"></i> <a href="https://github.com/teamcfadvance">https://github.com/teamcfadvance</a></p>
                 </div>
             </div>
 
             <div id="resources" class="row">
-                <div class="col-lg-6 col-lg-offset-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
                     <h2>Resources</h2>
                     <div class="col-lg-6">
                         <h4>Documentation</h4>
@@ -116,11 +117,11 @@
             </div>
 
             <div id="contact" class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <h2>Get in Touch</h2>
+                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+                    <h2>Keep in Touch</h2>
                     <div class="row">
                         <div class="col-lg-6">
-                            <p>Not sure where to begin? Have a project you'd like us to take-over or start? Any other questions we haven't addressed? Hit us up on your favorite social media outlet.</p>
+                            <p>Not sure where to begin? Have a project you'd like us to take over or start? Any other questions we haven't addressed? Hit us up on your favorite social media outlet.</p>
                         </div>
                         <div class="col-lg-3">
                             <h4>Social</h4>
@@ -144,7 +145,7 @@
             </div>
 
             <div class="footer row">
-                <div class="col-lg-6 col-lg-offset-3">
+                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
                     <p>
                         <span class="fa fa-copyright"></span> Team CF Advance.<br>
                         <small>Coldfusion is a trademark of Adobe Systems Incorporated. Railo is a trademark of Railo Technologies GmbH.</small>
@@ -154,14 +155,13 @@
 
         </div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            ga('create','UA-55797913-1');ga('send','pageview');
         </script>
 
         <!-- build:js scripts/vendor.js -->
