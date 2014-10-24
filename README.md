@@ -3,6 +3,9 @@ website
 
 Our public website. Want to help, just fork master, make your additions and send a pull request.
 
+The [Website Issues List](https://github.com/teamcfadvance/website/issues) contains tasks you can help with. If you see something that's needed but not on the list, please create a new issue so we can discuss.
+
+
 ## How To
 1. Fork the repo and clone to your development box.
 2. Make sure you've got Node.js installed and then from terminal just run `npm install`. NPM will install all the build dependancies listed in package.json.
